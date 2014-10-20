@@ -1,0 +1,21 @@
+/* Page styles */
+body {
+    font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
+}
+
+/* Demo styles */
+svg.progress-js path {
+    fill: none;
+    stroke-linecap: round;
+}
+
+svg.progress-js .indicator {
+    stroke: #2bcdfc;
+    -webkit-transition: .6s stroke-dashoffset ease-out;
+    -moz-transition: .6s stroke-dashoffset ease-out;
+    transition: .6s stroke-dashoffset ease-out;
+}
+
+svg.progress-js .background {
+    stroke: rgba(0, 0, 0, .1);
+}
