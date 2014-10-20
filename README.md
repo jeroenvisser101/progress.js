@@ -61,7 +61,34 @@ Usage is simple. There are some examples below, and on the documentation page th
     size: 100, // The diameter of the circle, in pixels
     stroke_width: 4, // The width of the stroke, in pixels
     background: false, // Disable the background
-    reverse: true
+    reverse: true // Count down, instead of up
+  });
+
+  // Set the value to 10%
+  progress.set(10);
+</script>
+```
+
+### Basic circle, using jQuery
+``` html
+<style>
+  svg.progress path {
+    fill: none;
+    stroke-linecap: round;
+  }
+  svg.progress path.indicator {
+    stroke-color: #2BCDFC; /* Indicator color */
+  }
+  svg.progress path.background {
+    stroke-color: rgba(0, 0, 0, .1); /* Background color */
+  }
+</style>
+<div class="target"></div>
+<script>
+  // Create the progressbar itself
+  var progress = new Progress($('.target').get(0), {
+    size: 100, // The diameter of the circle, in pixels
+    stroke_width: 4 // The width of the stroke, in pixels
   });
 
   // Set the value to 10%
