@@ -1,6 +1,6 @@
 # Progress.js
-![Size: 818 bytes](https://img.shields.io/badge/Size-818%20bytes-green.svg?style=flat)
-[![Donations I get](https://img.shields.io/gratipay/jeroenvisser101.svg?style=flat)](https://gratipay.com/jeroenvisser101/)
+![size: 818 bytes](https://img.shields.io/badge/size-818%20bytes-green.svg?style=flat)
+[![Tips I get](https://img.shields.io/gratipay/jeroenvisser101.svg?style=flat)](https://gratipay.com/jeroenvisser101/)
 
 Progress.js is a very small, standalone library that makes it easy to use circular progress indicators. It uses no library, just vanilla JavaScript and CSS3 for animations. However, it integrates in any jQuery project fairly easily!
 
