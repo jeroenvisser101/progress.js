@@ -150,7 +150,7 @@
         this.message = message;
         this.name = 'InvalidArgumentException';
         this.toString = function () {
-            return this.name + ": " + this.message;
+            return this.name + ': ' + this.message;
         };
     };
 
