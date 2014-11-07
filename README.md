@@ -13,11 +13,11 @@ Usage is simple. There are some examples below, and on the documentation page th
 ### Basic circle, animated and with background
 ``` html
 <style>
-  svg.progress path {
+  svg.progress-js path {
     fill: none;
     stroke-linecap: round;
   }
-  svg.progress path.indicator {
+  svg.progress-js path.indicator {
     stroke-color: #2BCDFC; /* Indicator color */
 
     /* Animate the indicator */
@@ -25,7 +25,7 @@ Usage is simple. There are some examples below, and on the documentation page th
     -moz-transition: .6s stroke-dashoffset ease-out;
     transition: .6s stroke-dashoffset ease-out;
   }
-  svg.progress path.background {
+  svg.progress-js path.background {
     stroke-color: rgba(0, 0, 0, .1); /* Background color */
   }
 </style>
@@ -46,11 +46,11 @@ Usage is simple. There are some examples below, and on the documentation page th
 ### Basic circle, counting down, no animation and without a background
 ``` html
 <style>
-  svg.progress path {
+  svg.progress-js path {
     fill: none;
     stroke-linecap: round;
   }
-  svg.progress path.indicator {
+  svg.progress-js path.indicator {
     stroke-color: #2BCDFC; /* Indicator color */
   }
 </style>
@@ -72,14 +72,14 @@ Usage is simple. There are some examples below, and on the documentation page th
 ### Basic circle, using jQuery
 ``` html
 <style>
-  svg.progress path {
+  svg.progress-js path {
     fill: none;
     stroke-linecap: round;
   }
-  svg.progress path.indicator {
+  svg.progress-js path.indicator {
     stroke-color: #2BCDFC; /* Indicator color */
   }
-  svg.progress path.background {
+  svg.progress-js path.background {
     stroke-color: rgba(0, 0, 0, .1); /* Background color */
   }
 </style>
