@@ -1,3 +1,10 @@
+/**
+ * ProgressJS
+ * 
+ * Copyright (c) 2015 Jeroen Visser
+ * 
+ * https://github.com/jeroenvisser101/progress.js
+ */
 (function (document) {
     'use strict';
 
