@@ -1,7 +1,7 @@
 /**
  * ProgressJS
  * 
- * Copyright (c) 2015 Jeroen Visser
+ * Copyright (c) 2016 Jeroen Visser
  * 
  * https://github.com/jeroenvisser101/progress.js
  */
